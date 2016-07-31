@@ -22,4 +22,5 @@ public class PacketDecoder extends LengthFieldBasedFrameDecoder {
         return new IMRequest(new DataBuffer(in));
     }
 
+    
 }
